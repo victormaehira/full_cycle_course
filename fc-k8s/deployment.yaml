@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: goserver
-          image: "vymaehira/hello-go:v5.2"
+          image: "vymaehira/hello-go:v5.3x"
           envFrom:
             - configMapRef:
                 name: goserver-env 
